@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset "UTF-8">
+<meta name ="viewport" content ="width-device-width,initial scale=1.0">
+<title> Mac Life Pizzas </title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<style>
+.gallery-block{
+padding-bottom: 60px;
+padding-top: 60px;
+border-radius: 30px;
+}
+
+.gallery-block .heading{
+margin-bottom: 50px;
+text-align: center;
+
+}
+.gallery-block .heading h2{font-weight: bold;font-size: 1.4rem;
+text-transform: uppercase;
+
+}
+
+.gallery-block.cards-gallery h6{font-size: 17px;
+font-weight: bold;
+}
+
+.gallery-block.cards-gallery .card{
+  transition: 0.4s easy;border-radius: 30px;}
+.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15);}
+.gallery-block.cards-gallery .card-body{text-align: center;}
+.gallery-block.cards-gallery .card-body p{font-size: 15px;}
+.gallery-block.cards-gallery a{color:#212529; }
+.gallery-block.cards-gallery a:hover{text-decoration: none;}
+.gallery-block.cards-gallery  .card{
+margin-bottom: 30px;
+box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 576px) {
+.gallery-block .transform-on-hover:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+}
+}
+body{
+background: #caa472;
+font-family: 'Josefin Sans', sans-serif;
+}
+</style>
+</head>
+<body>
+
+<section class="gallery-block cards-gallery">
+   	<div class="container">
+   		<div class="heading">
+<h1 style="margin-top:30px;"><b><u>Mac Life Mexcian Pizza's</u></b></h1>
+        <marquee width="60%" direction="left" height="100px" scrollamount="12">
+<h1 style="margin-top:30px;"><b><blink>Call Us for Today's Combo Offer's ! HURRY UP!!!.</blink></b></h1></marquee>
+   		</div>
+   		<div class="row">
+   			<div class="col-md-6 col-lg-4">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="#"><img src="assets/images/pizza8.jpg" height="300px" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6>Mexican Mac Pizza</h6>
+   						<p class="text-muted card-text">" Flattened base of leavened wheat-based dough topped with mozirilla cheese, mexcican spicy cheese, onions, basil leaves, green peppers, red peppers, fried pickles and spices."</p>
+   					</div>
+   				</div>
+   			</div>
+
+   			<div class="col-md-6 col-lg-4">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="#"><img src="assets/images/pizza10.jpg" height="300px" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6>Italian Spicy Pizza</h6>
+   						<p class="text-muted card-text">"Italian consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat."</p>
+   					</div>
+   				</div>
+   			</div>
+
+   			<div class="col-md-6 col-lg-4">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="#"><img src="assets/images/p11.jpg" height="300px" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6>California Pizza </h6>
+   						<p class="text-muted card-text">"Delicious corn tortilla filled with seasoned beans and topped with pizza sauce, three cheese, and vegetables of your choice. That can be cut into wedges and served as an appetizer or left whole and served as a main dish."</p>
+   					</div>
+   				</div>
+   			</div>
+   		</div>
+
+
+   		<div class="row">
+   			<div class="col-md-6 col-lg-4">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="#"><img src="assets/images/p10.jpeg" height="300px" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6>Chicago Pizza</h6>
+   						<p class="text-muted card-text">"Flat, open-faced baked pie of Italian origin, consisting of a thin layer of bread dough topped with spiced tomato sauce and cheese, often garnished with anchovies, sausage slices, mushrooms, etc.."</p>
+   					</div>
+   				</div>
+   			</div>
+
+   			<div class="col-md-6 col-lg-4">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="#"><img src="assets/images/pizza8.jpg" height="300px" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6>Mexican spicy pizza</h6>
+   						<p class="text-muted card-text">"Flattened bread dough spread with a savory mixture usually including tomatoes and cheese and often other toppings with onions,olives, mushrooms, holla sauce, mexican spice, thick cheese."</p>
+   					</div>
+   				</div>
+   			</div>
+
+   			<div class="col-md-6 col-lg-4">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="#"><img src="assets/images/p4.jpg" height="300px" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6>Miami Piiza</h6>
+   						<p class="text-muted card-text">"Herbed Onion & Green Capsicum, Red Capsicum, Mushroom, Baby Corn, blue cheese, Olives, fired pickels, green peppers, red peppers, black olives, with thin crust and double layered miami cheese."</p>
+   					</div>
+   				</div>
+   			</div>
+
+
+   			<div class="col-md-6 col-lg-4">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="#"><img src="assets/images/p2.png" height="300px" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6> Pepperoni Cheese Pizza</h6>
+   						<p class="text-muted card-text">"Flattened thick layered bread with Pepperoni slices spread all over the dough with thick mozerilla cheese, onions, spices, olives, fried onions, butter, sausage peices and cheese of your choice."</p>
+   					</div>
+   				</div>
+   			</div>
+
+   				<div class="col-md-6 col-lg-4">
+   				<div class="card border-0 transform-on-hover">
+   					<a class="lightbox" href="#"><img src="assets/images/p3.jpeg" height="300px" class="card-img-top"></a>
+   					<div class="card-body">
+   						<h6>Thin Crust NewYork Pizza</h6>
+   						<p class="text-muted card-text">"Thin Crust bread with cheese, onions, chicken peices, saugae peices, new york spices, vegetables of your chocie, red peppers, green peppers, yellow peppers, spices etc..."</p>
+   					</div>
+   				</div>
+   			</div>
+
+        <div class="col-md-6 col-lg-4">
+        <div class="card border-0 transform-on-hover">
+          <a class="lightbox" href="#"><img src="assets/images/p1.jpg" height="300px" class="card-img-top"></a>
+          <div class="card-body">
+            <h6> Las Vegas Pizza</h6>
+            <p class="text-muted card-text">" Flattened dough with saugae peices , mozerilla cheese, olive oil, brocoli peices, bacon peices with fried onions, red peppers, green peppers,yellow peppers, lemon drops etc.."</p>
+          </div>
+        </div>
+      </div>
+   	</div>
+   	</div>
+   </section>
+</body>
+</html>
+
+<script type="text/javascript">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="assets/js/script.js"></script>
+
+</script>
