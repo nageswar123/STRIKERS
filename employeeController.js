@@ -9,6 +9,7 @@ router.get('/', (req, res) => {
     });
 });
 
+//HTTPS post call for insert and updating the record
 router.post('/', (req, res) => {
     if (req.body._id == '')
         insertRecord(req, res);
@@ -16,7 +17,7 @@ router.post('/', (req, res) => {
         updateRecord(req, res);
 });
 
-
+// Function to insert the record
 function insertRecord(req, res) {
     var employee = new Employee();
     employee.fullName = req.body.fullName;
@@ -40,7 +41,7 @@ function insertRecord(req, res) {
         }
     });
 }
-
+// function to update the record
 function updateRecord(req, res) {
     Employee.findOneAndUpdate({ _id: req.body._id }, req.body, { new: true }, (err, doc) => {
         if (!err) { res.redirect('employee/list'); }
@@ -58,7 +59,7 @@ function updateRecord(req, res) {
     });
 }
 
-
+// HTTPS get call to retrieve the data
 router.get('/list', (req, res) => {
     Employee.find((err, docs) => {
         if (!err) {
@@ -72,7 +73,7 @@ router.get('/list', (req, res) => {
     });
 });
 
-
+// validation for error handling 
 function handleValidationError(err, body) {
     for (field in err.errors) {
         switch (err.errors[field].path) {
