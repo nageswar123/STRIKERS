@@ -1,3 +1,4 @@
+<!-- require includes modules from seperate files-->
 require('./models/db');
 
 const express = require('express');
