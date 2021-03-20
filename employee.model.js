@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// schema defined for saving mongoDB objects
 var employeeSchema = new mongoose.Schema({
     fullName: {
         type: String,
