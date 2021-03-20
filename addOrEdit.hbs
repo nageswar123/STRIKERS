@@ -11,11 +11,12 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
 
+<!--bootstrap dependencies-->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+<!--CSS styling dependencies-->
 <link rel="stylesheet" href="assets/css/style.css">
 
 <style>
-
   #main-home.header-top.item a{
   color: #000000;
   }
@@ -77,8 +78,6 @@
   html,body{
     font-family: 'Poppins', sans-serif;
     background: white;
-
-
   }
 
   .navs{
@@ -96,17 +95,9 @@
     background-color: #FF004D;
     box-shadow:0px 0px 0px 4px rgba(255,0,70,0.5);
   }
-
-
-
-
   </style>
-
-
 </head>
-
 <body>
-
 <section id="main-home">
 <header>
 <div class="container">
@@ -237,6 +228,7 @@ Gallery</a>
 
 </script>
 
+<!-- owl-carousal for slider-->
 <script type="text/javascript">
   $(document).ready(function(){
   $("#banner-slider.owl-carousal").OwlCarousel({
@@ -253,7 +245,7 @@ Gallery</a>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 
-
+<!--action for post call-->
 <h3>{{viewTitle}}</h3>
 <div class = 'container'>
 <form action="/employee" method="POST" autocomplete="off">
