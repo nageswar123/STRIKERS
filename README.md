@@ -61,4 +61,4 @@ Environment’s used  IDE – Atom, Visual Basics, Terminal.
 
 
   
-![image](https://user-images.githubusercontent.com/77968908/111864713-99926d80-8988-11eb-9adf-bee9513547c6.png)
+
