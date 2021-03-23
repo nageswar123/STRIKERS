@@ -33,26 +33,28 @@ Step 12: In order to save these dependencies inside the json file  Enter npm 
 
 Step 13: Enter npm i express@4.16.4  Enter
 
-Step 14: Enter npm mongoose@5.3.4  Enter
+Step 14: Enter npm i mongoose@4.4.4  Enter
 
-Step 15: Enter npm express-handlebars@3.0.0   Enter
+Step 15: Enter npm i express-handlebars@3.0.0   Enter
 
-Step 16: Enter npm body-parser@1.18.3
+Step 16: Enter npm i body-parser@1.18.3
 
-Step 17: Now check in the pacakage. json whether all the dependencies are updated
+Step 17: Enter npm i multer
 
-Step 18:  Now to start the server enter  mongo command 
+Step 18: Now check in the pacakage. json whether all the dependencies are updated
 
-Step 19: Now open the MongoDB Compass that is installed previously 
+Step 19:  Now to start the server enter  mongo command 
+
+Step 20: Now open the MongoDB Compass that is installed previously 
 
 
-Step 20: Click on the database that needs to be connected
+Step 21: Click on the database that needs to be connected
 
-Step 21: And then go to the directory and enter  nodemon server.js
+Step 22: And then go to the directory and enter  nodemon server.js
 
-Step 22: Now use the localhost/port to display the website 
+Step 23: Now use the localhost/port to display the website 
 
-Step 23: Enter the required details and check the database in MongoDB  Details are stored
+Step 24: Enter the required details and check the database in MongoDB  Details are stored
 
 
 Environment’s used  IDE – Atom, Visual Basics, Terminal.
