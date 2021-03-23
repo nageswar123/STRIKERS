@@ -57,7 +57,7 @@ Step 23: Now use the localhost/port to display the website
 Step 24: Enter the required details and check the database in MongoDB  Details are stored
 
 
-Environment’s used  IDE – Atom, Visual Basics, Terminal.
+Environment’s used  IDE – Atom, Visual studio code, Terminal.
 
 
 
