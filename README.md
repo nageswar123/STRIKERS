@@ -50,7 +50,7 @@ Step 20: Now open the MongoDB Compass that is installed previously
 
 Step 21: Click on the database that needs to be connected
 
-Step 22: And then go to the directory and enter  nodemon server.js
+Step 22: And then go to the directory and enter  node server.js
 
 Step 23: Now use the localhost/port to display the website 
 
@@ -63,4 +63,4 @@ Environment’s used  IDE – Atom, Visual Basics, Terminal.
 
 
   
-![image](https://user-images.githubusercontent.com/77968908/111864713-99926d80-8988-11eb-9adf-bee9513547c6.png)
+
