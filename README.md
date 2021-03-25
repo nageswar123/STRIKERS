@@ -34,7 +34,7 @@ Step 12: In order to save these dependencies inside the json file  Enter npm 
 
 Step 13: Enter npm i express@4.16.4  Enter
 
-Step 14: Enter npm i mongoose@5.3.4  Enter
+Step 14: Enter npm i mongoose@4.4.4  Enter
 
 Step 15: Enter npm i express-handlebars@3.0.0   Enter
 
