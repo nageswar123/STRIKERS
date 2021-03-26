@@ -49,7 +49,7 @@ Step 19: Now open the MongoDB Compass that is installed previously
 
 Step 20: Click on the database that needs to be connected
 
-Step 21: And then go to the directory in the visual studio terminal and enter  nodemon server.js
+Step 21: And then go to the directory in the visual studio terminal and enter  node server.js
 
 Step 22: Now use the localhost/port to display the website 
 
