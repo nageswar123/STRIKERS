@@ -55,7 +55,7 @@ function updateRecord(req, res) {
             else
                 console.log('Error during record update : ' + err);
         }
-    });
+    }).lean();
 }
 
 
@@ -69,7 +69,7 @@ router.get('/list', (req, res) => {
         else {
             console.log('Error in retrieving employee list :' + err);
         }
-    });
+    }).lean();
 });
 
 
@@ -96,7 +96,7 @@ router.get('/:id', (req, res) => {
                 employee: doc
             });
         }
-    });
+    }).lean();
 });
 
 router.get('/delete/:id', (req, res) => {
@@ -105,7 +105,7 @@ router.get('/delete/:id', (req, res) => {
             res.redirect('/employee/list');
         }
         else { console.log('Error in employee delete :' + err); }
-    });
+    }).lean();
 });
 
 module.exports = router;
