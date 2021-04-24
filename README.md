@@ -54,9 +54,9 @@ Step 22: Now use the localhost/port to display the website
 Step 23: Enter the required details and check the database in MongoDB  Details are stored
 
 
-Environment’s used  IDE – Atom, Visual Basics, Terminal.
+# Environment’s used  IDE – Atom, Visual Basics, Terminal.
 
-Steps to Deploy the web app in Docker
+# Steps to Deploy the web app in Docker
 
 Step 1: Install docker application from the official website
 
